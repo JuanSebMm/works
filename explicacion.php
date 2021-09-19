@@ -1,0 +1,2 @@
+buen dia instructor si se pregunta porque elimine los trabajos solo los redireccione a otro repositorio para limpiar este espacio de trabajo el otro repositorio es el siguiente
+https://github.com/JuanSebMm/ejemplos

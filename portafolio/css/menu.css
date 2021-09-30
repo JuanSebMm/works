@@ -1,0 +1,31 @@
+#main-container{
+    color: white;
+}
+
+#sidemenu{
+    background-color: var(--bgcolor);
+    color: white;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+#sidemenu a{
+    color: white;
+    text-decoration: none;
+}
+
+#sidemenu #header{
+    box-sizing: border-box;
+    border-bottom: solid 1px var(--hovercolor);
+}
+
+
+#sidemenu #header #tittle{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#sidemenu #header #tittle,#sidemenu #header #menu-btn{
+    vertical-align: middle;
+}

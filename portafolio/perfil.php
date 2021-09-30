@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Links de estilos -->
 
-    <link rel="stylesheet" href="css/cuerpo.css">  <!-- Estilos del cuerpo   -->
-    <link rel="stylesheet" href="css/menu.css">  <!-- Estilos del menu Lat -->
+    <link rel="stylesheet" href="css/crp.css">  <!-- Estilos del cuerpo   -->
+    <link rel="stylesheet" href="css/main.css">  <!-- Estilos del menu Lat -->
     <link rel="stylesheet" href="">  <!-- Estilos del Portafolio -->
 
     <!-- ---------------- -->
@@ -19,7 +19,7 @@
         <div id="header">
             <div id="tittle"><span>Portafolio ADSI</span></div>
             <div id="menu-btn">
-                <div class="btn-hamburguer">Herramientas</div>
+                <div class="btn-hamburguer"></div>
                 <div class="btn-hamburguer"></div>
                 <div class="btn-hamburguer"></div>
             </div>
@@ -28,14 +28,14 @@
 
     <!-- Info  Personal -->
         <div id="profile">
-            <div id="photo"><img src="" alt=""></div>
-            <div id="name"><span>Juan sebastian Miranda</span></div>
+            <div id="photo"><img class="imagen" src="img/mipersona.jpg" alt=""></div>
+            <div id="name"><span>Juan Miranda</span></div>
         </div>
 
 
         <!-- Especialidades -->
         <div id="menu-items">
-            <div class="items">
+            <div class="item">
                 <a href="">
                     <div class="icon"><i class="fas fa-cogs"></i></div>
                     <div class="tittle"><span>Herramientas</span></div>

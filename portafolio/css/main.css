@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&family=Signika+Negative:wght@300;400&display=swap');
+
+:root{
+    --width:300px;
+    --padding:10px;
+    --bgcolor:rgb(52,52,52);
+    --hovercolor:rgb(23,23,23);
+    --width-collapsed:50px;
+}
+
+
 .body-expanded{
     margin-left: var(--width);
+    transition: ease 500ms;
 }
 
 #main-container{
@@ -13,6 +25,7 @@
     height: 100%;
     left: 0;
     top: 0;
+    transition: ease 500ms;
 }
 #sidemenu a{
     color: white;
@@ -30,6 +43,8 @@
 #sidemenu #header #tittle{
     box-sizing: border-box;
     overflow: hidden;
+    transition: ease 500ms;
+    font-family: 'Comfortaa', cursive;
 }
 
 #sidemenu #header #tittle,#sidemenu #header #menu-btn{
@@ -56,6 +71,7 @@
     width: 100%;
     height: 2px;
     margin: 5px 0;
+    transition: ease 500ms;
 }
 
 
@@ -76,14 +92,19 @@
 
 #sidemenu #profile #photo .imagen{
     border-radius: 50%;
-    width: 160px;
+    width: 90%;
+    transition: ease 500ms;
 }
 
 #sidemenu #profile #photo,#sidemenu #profile #name{
     font-size: 24px;
     padding: var(--padding);
     overflow: hidden;
+    transition: 500ms ease;
+    font-family: 'Comfortaa', cursive;
 }
+
+/* Items */
 
 #sidemenu #menu-items{
     overflow: hidden;
@@ -95,4 +116,94 @@
 
 #sidemenu #menu-items .item .icon{
     display: inline-block;
+}
+
+#sidemenu #menu-items .item .icon,
+#sidemenu #menu-items .item .tittle{
+    font-size: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    display: inline-block;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#sidemenu #menu-items .item a{
+    display: block;
+}
+
+#sidemenu #menu-items .item a:hover{
+    background-color: var(--hovercolor);
+}
+
+#sidemenu #menu-items .item .icon{
+    box-sizing: border-box;
+    padding: var(--padding);
+    width: var(--width-collapsed);
+}
+
+#sidemenu #menu-items .item .icon img{
+    width: 100%;
+    transition: ease 500ms
+}
+
+
+#sidemenu #menu-items .item .tittle{
+    padding: var(--padding) 0;
+}
+
+#sidemenu #menu-items .item.separador{
+    height: 1px;
+    border-bottom: solid 1px var(--hovercolor);
+    margin: 15px 0;
+}
+
+
+.menu-expanded{
+    width: var(--width);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.menu-expanded #header #tittle{
+    display: inline-block;
+    width: calc(100%-50px);
+    margin-right: -5px;
+    padding: var(--padding);
+}
+
+.menu-expanded #header #tittle span{
+    width: calc(var(--width) - var(--width-collapsed) - 5px);
+    overflow: hidden;
+    transition: 500ms ease;
+}
+
+.menu-expanded #profile #photo{
+    width: 200px;
+}
+
+.menu-expanded #profile #name{
+    width: 90%;
+    transition: ease 500ms;
+}
+
+.menu-collapsed{
+    width: var(--width-collapsed);
+    transition: 500ms ease;
+}
+
+.menu-collapsed #header #tittle{
+    width: 0;
+    padding: 0;
+    height: 0;
+    margin: 0;
+}
+
+.menu-collapsed #profile #name{
+    display: none;
+    transition: ease 500ms;
+}
+
+.menu-collapsed .item{
+    width: 100px;
 }

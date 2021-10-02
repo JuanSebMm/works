@@ -17,7 +17,7 @@
     <!-- Menu   lateral -->
     <div id="sidemenu" class="menu-collapsed">
         <div id="header">
-            <div id="tittle"><span>Portafolio ADSI</span></div>
+            <div id="tittle"></div>
             <div id="menu-btn">
                 <div class="btn-hamburguer"></div>
                 <div class="btn-hamburguer"></div>

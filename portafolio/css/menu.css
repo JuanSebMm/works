@@ -14,9 +14,6 @@
     transition: ease 500ms;
 }
 
-#main-container{
-    color: white;
-}
 
 #sidemenu{
     background-color: var(--bgcolor);
@@ -143,7 +140,7 @@
 
 #sidemenu #menu-items .item .icon img{
     width: 100%;
-    transition: ease 500ms
+    transition: ease 500ms;
 }
 
 
@@ -155,12 +152,14 @@
     height: 1px;
     border-bottom: solid 1px var(--hovercolor);
     margin: 15px 0;
+    transition: ease 500ms;
 }
 
 
 .menu-expanded{
     width: var(--width);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: ease 500ms;
 }
 
 
@@ -170,6 +169,7 @@
     width: calc(100%-50px);
     margin-right: -5px;
     padding: var(--padding);
+    transition: ease 500ms;
 }
 
 .menu-expanded #header #tittle span{
@@ -179,6 +179,7 @@
 }
 
 .menu-expanded #profile #photo{
+    transition: 500ms ease;
     width: 200px;
 }
 
@@ -197,6 +198,7 @@
     padding: 0;
     height: 0;
     margin: 0;
+    transition: ease 500ms;
 }
 
 .menu-collapsed #profile #name{
@@ -206,4 +208,6 @@
 
 .menu-collapsed .item{
     width: 100px;
+    transition: ease 500ms;
+    
 }

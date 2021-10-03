@@ -1,0 +1,49 @@
+.Gal-pro{
+    margin: 0 auto;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    transition: ease 500ms;
+}
+
+
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+
+.servicio-cont{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 50%;
+    text-align: center;
+    margin: 0px 0px 0px 30%;
+}
+
+.servicio-ind img{
+    width: 70%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin: -3% 20px 20px 20px;
+}

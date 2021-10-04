@@ -7,5 +7,3 @@ btn.addEventListener('click', e=>{
 
     document.querySelector('body').classList.toggle('body-expanded');
 })
-
-

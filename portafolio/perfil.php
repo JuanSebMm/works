@@ -8,10 +8,10 @@
 
     <link rel="stylesheet" href="css/cuerpo.css">  <!-- Estilos del cuerpo   -->
     <link rel="stylesheet" href="css/menu.css">  <!-- Estilos del menu Lat -->
-    <link rel="stylesheet" href="css/port.css"> <!-- Estilos del Portafolio -->
+    <link rel="stylesheet" href="css/galeria.css"> <!-- Estilos del Portafolio y galeri-->
 
-    <!-- ---------------- -->
     <title>Portafolio || Especialidades web</title>
+
 </head>
 <body>
     <!-- Menu   lateral -->
@@ -45,8 +45,8 @@
                     <div class="tittle"><span>Herramientas</span></div>
                 </a>
                 <a href="">
-                    <div class="icon"><img src="img/engranaje.png" alt=""></div>
-                    <div class="tittle"><span>Herramientas</span></div>
+                    <div class="icon"><img src="img/portafolio.png" alt=""></div>
+                    <div class="tittle"><span>Portafolio</span></div>
                 </a>
             </div>
 
@@ -66,9 +66,7 @@
 
     <div class="wrapper">
 
-        <!-- ------- -->
-            <!-- Cuerpo del proyecto -->
-        <!-- ------- -->
+     <!-- Cuerpo del proyecto -->
 
          <main class="main">
           <div class="info-content">
@@ -84,14 +82,15 @@
         
          </main>
 
-
+      <!-- Estilos de hondas -->
       <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-22.29,-7.38 C4.80,354.78 209.65,-41.92 533.57,81.42 L500.27,-13.30 L0.00,0.00 Z" style="stroke: none; fill: #191c32;"></path></svg></div>
 
+      <!-- Contenido Fortalezas -->
 
      <div class="about  contenido-textos">
          <img src="img/Sobmi.png" alt="">
          <div class="about-info">
-         <h3><span>1</span>Los mejores productos</h3>
+           <h3><span>1</span>Los mejores productos</h3>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
                          consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi  pariatur,
                          velit doloribus laboriosam ut.</p>
@@ -103,54 +102,81 @@
              <button class="dowload-cv">Mas informacion</button>
          </div>
      </div>
-
-
-     <div class="Gal-pro">
-         
+     
+     <!-- Tarjetas de lenguajes -->
       <section class="about-services">
-       <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.79,81.42 C209.08,-70.53 380.07,183.06 505.92,62.67 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
 
-            <div class="cont-leng">
-                <h2 class="titulo">Lenguajes De<span> Programacion</span></h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="img/engranaje.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/engranaje.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/engranaje.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/engranaje.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/engranaje.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/engranaje.png" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
-                    </div>
-                </div>
+       <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-27.36,47.88 C172.40,-55.73 323.08,126.81 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #191c32;"></path></svg></div>
+
+       <div class="tit-Gal">
+
+           <div class="head">
+               <h1><span>Lenguajes</span> Preferidos</h1>
+           </div>
+       
+
+        <div class="cont-mainTr">      
+
+         <div class="cont-tarjeta">
+            <div class="cont-tarjeta__logo">
+
+                <i class="fab fa-css3-alt"></i>
+                <h1>Css++</h1>
+
             </div>
-      </section>
+            <article>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit suscipit numquam natus modi maxime unde quae alias libero aliquid.
+            </article>
+         </div>
 
+         <div class="cont-tarjeta">
+            <div class="cont-tarjeta__logo">
+
+                <i class="fab fa-html5"></i>
+                <h1>Html:5</h1>
+
+            </div>
+            <article>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit suscipit numquam natus modi maxime unde quae alias libero aliquid.
+            </article>
+         </div>
+
+         <div class="cont-tarjeta">
+            <div class="cont-tarjeta__logo">
+
+                <i class="fab fa-node-js"></i>
+                <h1>Java Script</h1>
+
+            </div>
+            <article>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit suscipit numquam natus modi maxime unde quae alias libero aliquid.
+            </article>
+         </div>
+
+         <div class="cont-tarjeta">
+            <div class="cont-tarjeta__logo">
+
+                <i class="fab fa-php"></i>
+                <h1>PHP</h1>
+
+            </div>
+            <article>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit suscipit numquam natus modi maxime unde quae alias libero aliquid.
+            </article>
+         </div>
+        </div>
+       </div>
+
+
+       <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.79,45.89 C179.17,128.80 275.11,-17.25 501.41,60.70 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #191c32;"></path></svg></div>
+
+
+      </section>
+      
+
+     <!--Galeria con filtros -->       
 
       <section class="about-Wrk">
-
-        <div style="height: 150px; overflow: hidden; margin:-2% 0px 0px 0px;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.84,84.38 C101.85,-87.31 310.10,203.80 501.41,30.11 L501.97,-3.44 L0.00,0.00 Z" style="stroke: none; fill: #f2f2f2;"></path></svg></div>
 
           <div class="Bod-gal">
 
@@ -158,12 +184,10 @@
 
                   <div class="Title-Gal">  <!-- cabecera de galeria -->
 
-                      <div class="logo">
+                     <div class="head">
+                       <h1>Proyectos<span> En </span> Progreso</h1>
+                     </div>
 
-                        <h1>Portafolio Web</h1>
-                        <p>Trabajos Posteriores</p>
-
-                      </div>
                       <form action="">
                           <input type="text" class="Bar-serch" id="Bar-serch" placeholder="Buscar">
                       </form>
@@ -176,37 +200,106 @@
                           <a href="#">Laravel</a>
                       </div>
 
-                  </div>     <!-- Fin de cabecera -->
+                  </div>    
 
-                  <section class="grid">
-                      <div class="item">
+                  <section class="grid" id="grid">
+
+                      <div class="item"
+                         data-categoria="html:5" 
+                         data-etiquetas="html html:5"
+                         data-descripcion="ejemplo1">
+
+                          <div class="item-contenido">
+                              <img src="img/Sobmi.png" alt="">
+                          </div>
+                      </div>
+
+                      <div class="item"
+                         data-categoria="css++" 
+                         data-etiquetas="css c++ css++"
+                         data-descripcion= "lolito">
+                        
+
                           <div class="item-contenido">
                               <img src="img/construir.png" alt="">
                           </div>
                       </div>
-                      <div class="item">
+
+                      <div class="item"
+                         data-categoria="js" 
+                         data-etiquetas="js java script"
+                         data-descripcion="ejemplo3">
+
                           <div class="item-contenido">
-                              <img src="img/construir.png" alt="">
+                              <img src="img/engranaje.png" alt="">
                           </div>
                       </div>
-                      <div class="item">
+
+                      <div class="item"
+                         data-categoria="js" 
+                         data-etiquetas="js java script"
+                         data-descripcion="ejemplo3">
+
                           <div class="item-contenido">
-                              <img src="img/construir.png" alt="">
+                              <img src="img/engranaje.png" alt="">
                           </div>
                       </div>
-                      <div class="item">
+
+                      <div class="item"
+                         data-categoria="js" 
+                         data-etiquetas="js java script"
+                         data-descripcion="ejemplos de todo lo que pase">
+
                           <div class="item-contenido">
-                              <img src="img/construir.png" alt="">
+                              <img src="img/engranaje.png" alt="">
                           </div>
                       </div>
+
+                      <div class="item"
+                         data-categoria="html:5" 
+                         data-etiquetas="html html:5"
+                         data-descripcion="ejemplo1">
+
+                          <div class="item-contenido">
+                              <img src="img/Sobmi.png" alt="">
+                          </div>
+                      </div>
+
+                      <div class="item"
+                         data-categoria="html:5" 
+                         data-etiquetas="html html:5"
+                         data-descripcion="ejemplo1">
+
+                          <div class="item-contenido">
+                              <img src="img/Sobmi.png" alt="">
+                          </div>
+                      </div>
+
+                      <div class="item"
+                         data-categoria="js" 
+                         data-etiquetas="js java script"
+                         data-descripcion="ejemplo3">
+
+                          <div class="item-contenido">
+                              <img src="img/engranaje.png" alt="">
+                          </div>
+                      </div>
+
                   </section>
 
-              </div>  <!-- Fin contenedor de galeria -->
+                  <section class="overlay" id="overlay">
+			        <div class="contenedor-img">
+				      <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				      <img src="" alt="">
+			       </div>
+			       <p class="descripcion"></p>
+		         </section>
+
+              </div>  
 
           </div>
           
-      </section>  <!-- Fin de galeria -->
-     </div>
+      </section> 
      
 
     </div>    
@@ -220,6 +313,6 @@
 
 
 <!-- Links de carpetas -->
-<script src="js/gal.js"></script>
 <script src="js/Main.js"></script>
+<script src="js/galeria.js"></script>
 </html>

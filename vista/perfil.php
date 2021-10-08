@@ -36,9 +36,9 @@
      <!-- Especialidades -->
          <div id="menu-items">
             <div class="item">
-                <a href="">
+                <a href="manual/index.php">
                     <div class="icon"><img src="../img/engranaje.png" alt=""></div>
-                    <div class="tittle"><span>Herramientas</span></div>
+                    <div class="tittle"><span>Manual</span></div>
                 </a>
                 <a href="">
                     <div class="icon"><img src="../img/engranaje.png" alt=""></div>
@@ -228,27 +228,7 @@
                       <div class="item"
                          data-categoria="js" 
                          data-etiquetas="js java script"
-                         data-descripcion="ejemplo3">
-
-                          <div class="item-contenido">
-                              <img src="../img/engranaje.png" alt="">
-                          </div>
-                      </div>
-
-                      <div class="item"
-                         data-categoria="js" 
-                         data-etiquetas="js java script"
-                         data-descripcion="ejemplo3">
-
-                          <div class="item-contenido">
-                              <img src="../img/engranaje.png" alt="">
-                          </div>
-                      </div>
-
-                      <div class="item"
-                         data-categoria="js" 
-                         data-etiquetas="js java script"
-                         data-descripcion="ejemplos de todo lo que pase">
+                         data-descripcion='<a href="manual/index.php">Manual de usuario</a>'>
 
                           <div class="item-contenido">
                               <img src="../img/engranaje.png" alt="">
@@ -265,25 +245,6 @@
                           </div>
                       </div>
 
-                      <div class="item"
-                         data-categoria="html:5" 
-                         data-etiquetas="html html:5"
-                         data-descripcion="ejemplo1">
-
-                          <div class="item-contenido">
-                              <img src="../img/Sobmi.png" alt="">
-                          </div>
-                      </div>
-
-                      <div class="item"
-                         data-categoria="js" 
-                         data-etiquetas="js java script"
-                         data-descripcion="ejemplo3">
-
-                          <div class="item-contenido">
-                              <img src="../img/engranaje.png" alt="">
-                          </div>
-                      </div>
 
                   </section>
 

@@ -16,7 +16,7 @@
     </div>
     <div class="menu_nav">
       <ul>
-        <li class="active"><a href="index.php">Home</a></li>
+        <li class="active"><a href="../perfil.php">Home</a></li>
         <li><a href="support.php">Support</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Blog</a></li>

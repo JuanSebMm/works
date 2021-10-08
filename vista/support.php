@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>plantilla prueba</title>
+<title>netindustries | Support</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="../estilos/mainus.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="main">
@@ -14,11 +14,11 @@
     </div>
     <div class="menu_nav">
       <ul>
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="support.html">Support</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="support.html">Support</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
       <div class="clr"></div>
     </div>
@@ -28,26 +28,21 @@
   <div class="content">
     <div class="mainbar">
       <div class="article">
-        <h2><span>Template License</span></h2>
+        <h2><span>Support to</span> Company Name</h2>
         <div class="clr"></div>
-        <p class="post-data">
-          <a href="#" class="com fr">Comments (3)</a> <span class="date">March 16, 2018</span> &nbsp;|&nbsp; Posted by <a href="#">Owner</a> &nbsp;|&nbsp; Filed under <a href="#">templates</a>, <a href="#">internet</a></p>
-        <img src="images/images_1.jpg" width="613" height="193" alt="" />
-        <p>This is a free CSS website template by AtomicWebsiteTemplates.com. This work is distributed under the Creative Commons Attribution 3.0 License, which means that you are free to use it for any personal or commercial purpose provided you credit me in the form of a link back to AtomicWebsiteTemplates.com.</p>
-        <p class="spec"> <a href="#" class="rm fl">Read more</a></p>
-        <div class="clr"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Suspendisse nulla ligula, blandit ultricies aliquet ac, lobortis in massa. Nunc dolor sem, tincidunt vitae viverra in, egestas sed lacus.</strong> Etiam in ullamcorper felis. Nulla cursus feugiat leo, ut dictum metus semper a. Vivamus euismod, arcu gravida sollicitudin vestibulum, quam sem tempus quam, quis ullamcorper erat nunc in massa. Donec aliquet ante non diam sollicitudin quis auctor velit sodales. Morbi neque est, posuere at fringilla non, mollis nec nibh. Sed commodo tortor nec sem tincidunt mattis. Nam convallis aliquam nibh eu luctus. Nunc vel tincidunt lacus. Suspendisse sit amet pulvinar ante.</p>
+        <p>Phasellus diam justo, laoreet vel vulputate eu, congue vel est. Maecenas eros libero, sollicitudin a vulputate fermentum, ultrices vel lacus. Nam in metus non augue fermentum consequat ultrices ac enim. Integer aliquam urna non diam aliquam eget hendrerit sem molestie.</p>
+        <p><strong>Lorem ipsum dolor sit amet</strong></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget bibendum tellus. Nunc vel imperdiet tellus. Mauris ornare aliquam urna, accumsan bibendum eros auctor ac.</p>
+        <ul class="sb_menu">
+          <li><a href="#"><strong>Lorem ipsum</strong></a></li>
+          <li><a href="#"><strong>Lorem ipsum</strong></a></li>
+          <li><a href="#"><strong>Lorem ipsum</strong></a></li>
+          <li><a href="#"><strong>Lorem ipsum</strong></a></li>
+          <li><a href="#"><strong>Lorem ipsum</strong></a></li>
+          <li><a href="#"><strong>Lorem ipsum</strong></a></li>
+        </ul>
       </div>
-      <div class="article">
-        <h2><span>Lorem Ipsum</span> Dolor Sit</h2>
-        <div class="clr"></div>
-        <p class="post-data"><a href="#" class="com fr">Comments (7)</a> <span class="date">March 15, 2010</span> &nbsp;|&nbsp; Posted by <a href="#">Owner</a> &nbsp;|&nbsp; Filed under <a href="#">templates</a>, <a href="#">internet</a></p>
-        <img src="images/images_2.jpg" width="613" height="193" alt="" />
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. <a href="#">Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo.</a> Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam.</p>
-        <p>Aenean commodo elit ac ante dignissim iaculis sit amet non velit. Donec magna sapien, molestie sit amet faucibus sit amet, fringilla in urna. Aliquam erat volutpat. Fusce a dui est. Sed in volutpat elit. Nam odio tortor, pulvinar non scelerisque in, eleifend nec nunc. Sed pretium, massa sed dictum dapibus, nibh purus posuere magna, ac porta felis lectus ut neque. Nullam sagittis ante vitae velit facilisis lacinia. Cras vehicula lacinia ornare. Duis et cursus risus. Curabitur consectetur justo sit amet odio viverra vel iaculis odio gravida. Ut imperdiet metus nec erat.</p>
-        <p class="spec"><a href="#" class="rm fl">Read more</a></p>
-        <div class="clr"></div>
-      </div>
-      <div class="pagenavi"><span class="pages">Page 1 of 2</span><span class="current">1</span><a href="#">2</a><a href="#" >&raquo;</a></div>
     </div>
     <div class="sidebar">
       <div class="gadget">
@@ -100,7 +95,6 @@
     </div>
     <div class="clr"></div>
   </div>
-
 </div>
 </body>
 </html>

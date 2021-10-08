@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Links de estilos -->
 
-    <link rel="stylesheet" href="css/cuerpo.css">  <!-- Estilos del cuerpo   -->
-    <link rel="stylesheet" href="css/menu.css">  <!-- Estilos del menu Lat -->
-    <link rel="stylesheet" href="css/galeria.css"> <!-- Estilos del Portafolio y galeri-->
+    <link rel="stylesheet" href="../estilos/cuerpo.css">  <!-- Estilos del cuerpo   -->
+    <link rel="stylesheet" href="../estilos/menu.css">  <!-- Estilos del menu Lat -->
+    <link rel="stylesheet" href="../estilos/galeria.css"> <!-- Estilos del Portafolio y galeri-->
 
     <title>Portafolio || Especialidades web</title>
 
@@ -28,7 +28,7 @@
 
      <!-- Info  Personal -->
          <div id="profile">
-            <div id="photo"><img class="imagen" src="img/mipersona.jpg" alt=""></div>
+            <div id="photo"><img class="imagen" src="../img/mipersona.jpg" alt=""></div>
             <div id="name"><span>Juan sebastian Miranda</span></div>
          </div>
 
@@ -37,15 +37,15 @@
          <div id="menu-items">
             <div class="item">
                 <a href="">
-                    <div class="icon"><img src="img/engranaje.png" alt=""></div>
+                    <div class="icon"><img src="../img/engranaje.png" alt=""></div>
                     <div class="tittle"><span>Herramientas</span></div>
                 </a>
                 <a href="">
-                    <div class="icon"><img src="img/engranaje.png" alt=""></div>
+                    <div class="icon"><img src="../img/engranaje.png" alt=""></div>
                     <div class="tittle"><span>Herramientas</span></div>
                 </a>
                 <a href="">
-                    <div class="icon"><img src="img/portafolio.png" alt=""></div>
+                    <div class="icon"><img src="../img/portafolio.png" alt=""></div>
                     <div class="tittle"><span>Portafolio</span></div>
                 </a>
             </div>
@@ -55,7 +55,7 @@
 
             <div class="item">
                 <a href="">
-                    <div class="icon"><img src="img/engranaje.png" alt=""></div>
+                    <div class="icon"><img src="../img/engranaje.png" alt=""></div>
                     <div class="tittle"><span>Herramientas</span></div>
                 </a>
             </div>
@@ -77,7 +77,7 @@
               </a>
           </div>
         
-          <div><img src="img/construir.png" alt="Imagen de codigo"></div>
+          <div><img src="../img/construir.png" alt="Imagen de codigo"></div>
 
         
          </main>
@@ -88,7 +88,7 @@
       <!-- Contenido Fortalezas -->
 
      <div class="about  contenido-textos">
-         <img src="img/Sobmi.png" alt="">
+         <img src="../img/Sobmi.png" alt="">
          <div class="about-info">
            <h3><span>1</span>Los mejores productos</h3>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
@@ -210,7 +210,7 @@
                          data-descripcion="ejemplo1">
 
                           <div class="item-contenido">
-                              <img src="img/Sobmi.png" alt="">
+                              <img src="../img/Sobmi.png" alt="">
                           </div>
                       </div>
 
@@ -221,7 +221,7 @@
                         
 
                           <div class="item-contenido">
-                              <img src="img/construir.png" alt="">
+                              <img src="../img/construir.png" alt="">
                           </div>
                       </div>
 
@@ -231,7 +231,7 @@
                          data-descripcion="ejemplo3">
 
                           <div class="item-contenido">
-                              <img src="img/engranaje.png" alt="">
+                              <img src="../img/engranaje.png" alt="">
                           </div>
                       </div>
 
@@ -241,7 +241,7 @@
                          data-descripcion="ejemplo3">
 
                           <div class="item-contenido">
-                              <img src="img/engranaje.png" alt="">
+                              <img src="../img/engranaje.png" alt="">
                           </div>
                       </div>
 
@@ -251,7 +251,7 @@
                          data-descripcion="ejemplos de todo lo que pase">
 
                           <div class="item-contenido">
-                              <img src="img/engranaje.png" alt="">
+                              <img src="../img/engranaje.png" alt="">
                           </div>
                       </div>
 
@@ -261,7 +261,7 @@
                          data-descripcion="ejemplo1">
 
                           <div class="item-contenido">
-                              <img src="img/Sobmi.png" alt="">
+                              <img src="../img/Sobmi.png" alt="">
                           </div>
                       </div>
 
@@ -271,7 +271,7 @@
                          data-descripcion="ejemplo1">
 
                           <div class="item-contenido">
-                              <img src="img/Sobmi.png" alt="">
+                              <img src="../img/Sobmi.png" alt="">
                           </div>
                       </div>
 
@@ -281,7 +281,7 @@
                          data-descripcion="ejemplo3">
 
                           <div class="item-contenido">
-                              <img src="img/engranaje.png" alt="">
+                              <img src="../img/engranaje.png" alt="">
                           </div>
                       </div>
 
@@ -313,6 +313,6 @@
 
 
 <!-- Links de carpetas -->
-<script src="js/Main.js"></script>
-<script src="js/galeria.js"></script>
+<script src="../js/Main.js"></script>
+<script src="../js/galeria.js"></script>
 </html>

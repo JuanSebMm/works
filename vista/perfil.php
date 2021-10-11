@@ -36,29 +36,24 @@
      <!-- Especialidades -->
          <div id="menu-items">
             <div class="item">
-                <a href="manual/index.php">
-                    <div class="icon"><img src="../img/engranaje.png" alt=""></div>
+                <a href="manual/ManualIn.php">
+                    <div class="icon"><img src="../img/manual.png" alt=""></div>
                     <div class="tittle"><span>Manual</span></div>
                 </a>
                 <a href="">
                     <div class="icon"><img src="../img/engranaje.png" alt=""></div>
-                    <div class="tittle"><span>Herramientas</span></div>
+                    <div class="tittle"><span>Trabajos</span></div>
                 </a>
-                <a href="">
-                    <div class="icon"><img src="../img/portafolio.png" alt=""></div>
-                    <div class="tittle"><span>Portafolio</span></div>
+                <a href="../crud/indexCrud.php">
+                    <div class="icon"><img src="../img/crud.jpg" alt=""></div>
+                    <div class="tittle"><span>CRUD</span></div>
                 </a>
-            </div>
-
-            <div class="item separador">
-            </div>
-
-            <div class="item">
-                <a href="">
-                    <div class="icon"><img src="../img/engranaje.png" alt=""></div>
+                <a href="manual/ManualIn.php">
+                    <div class="icon"><img src="../img/codigo.png" alt=""></div>
                     <div class="tittle"><span>Herramientas</span></div>
                 </a>
             </div>
+
          </div>
      <!-- -------------- -->
 
@@ -70,11 +65,8 @@
 
          <main class="main">
           <div class="info-content">
-              <h1>Soy<span> Juan</span> Sebastian <span>Miranda</span></h1>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta error ex, voluptatum similique quam ipsum libero provident maiores quaerat debitis quibusdam dolor asperiores iure distinctio enim facilis suscipit expedita voluptatem!</p>
-              <a dowload href="">
-                  <button class="dowload-cv">Dowload CV</button>
-              </a>
+              <h1><span> Juan</span> Sebastian <span>Miranda</span></h1>
+              <p>Me desempeño en manejar lenguajes de programacion como html:5, CSS, Java Script y el manejo de frameworks como es el de laravel.</p>
           </div>
         
           <div><img src="../img/construir.png" alt="Imagen de codigo"></div>
@@ -90,16 +82,10 @@
      <div class="about  contenido-textos">
          <img src="../img/Sobmi.png" alt="">
          <div class="about-info">
-           <h3><span>1</span>Los mejores productos</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
-                         consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi  pariatur,
-                         velit doloribus laboriosam ut.</p>
-                     <h3><span>2</span>Los mejores productos</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
-                         consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
-                         velit doloribus laboriosam ut.</p>
-
-             <button class="dowload-cv">Mas informacion</button>
+           <h3><span>1</span>Fortalezas</h3>
+                     <p>En el lado del front end me desempeño de manera organizada dandole estilos a mi codigo y tengo conocimiento en el manejo de bases de datos de datos, me guta manejar los nuevos retos que van proponiendo al momento de realizar un nuevo proyecto.</p>
+                     <h3><span>2</span>Debilidades</h3>
+                     <p>El back end no es una de mis especialidades ya que temporal mente no tengo un buen manejo de lenguajes como PHP y JS "Son los principales que manejo".</p>
          </div>
      </div>
      
@@ -125,7 +111,7 @@
 
             </div>
             <article>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit suscipit numquam natus modi maxime unde quae alias libero aliquid.
+               Me gusta manejar la hoja de estilos de css, al permitirme estilizar mi pagina web a placer me da la libertad de expresarme como me de gusto.
             </article>
          </div>
 
@@ -137,7 +123,7 @@
 
             </div>
             <article>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit suscipit numquam natus modi maxime unde quae alias libero aliquid.
+               El lenguaje html:5 al ser el principal lenguaje de hipertexto para estructurar una pagina web me permite manejar y organizar los contenidos a placer.
             </article>
          </div>
 
@@ -149,7 +135,7 @@
 
             </div>
             <article>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit suscipit numquam natus modi maxime unde quae alias libero aliquid.
+               Al ser un lenguaje de programacion que me permite agregar interactividad a mi pagina lo manejo de una manera eficiente y sencilla
             </article>
          </div>
 
@@ -161,7 +147,7 @@
 
             </div>
             <article>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit suscipit numquam natus modi maxime unde quae alias libero aliquid.
+               El lenguaje de php lo utilizo para realizar el MVC("Modelo Vista Controlador") al momento de trabajar con bases de datos, este tambien me da la opcion de estilizar mi pagina pero con funciones distintas a las de js. 
             </article>
          </div>
         </div>

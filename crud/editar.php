@@ -5,7 +5,7 @@ include("conexion.php")
 <html lang="es">
 <head>
     <title>EDITAR</title>
-    <link rel="stylesheet" href="../css/crud-1.css">
+
 </head>
 <body>
 
@@ -67,7 +67,7 @@ include("conexion.php")
         <br>
         <input type="hidden" name="id" value="<?php echo $id; ?>">
         <input type="submit" name="enviar" value="ACTUALIZAR" class="controls">
-            <center><a href="indexCrud.php">REGRESAR</a></center>
+        <a class=" button type1" href="indexCrud.php">REGRESAR</a>
         
     </form>
     <?php

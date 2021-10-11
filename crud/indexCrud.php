@@ -6,19 +6,34 @@
     <script>
         function confirmar(){
             return confirm('A continuacion se eliminaran los datos seleccionados ¿desea continuar?')
-
         }
-
     </script>
+    <link rel="stylesheet" href="../estilos/tablas.css">
+    <link rel="stylesheet" href="../estilos/manUs.css">
 </head>
 <body>
+
+   <div id="inicio" class="nav-bar">
+       <ul class="Nav">
+         <div class="titulo">Manuales <span>Tecnicos</span></div>
+        <li><a href="#inicio" class=" button type1">Inicio</a></li>
+        <li><a href="../../crud/indexCrud.php" class=" button type1">Crud</a></li>
+        <li><a href="#" class=" button type1">Trabajos</a></li>
+        <li><a href="../perfil.php" class=" button type1">Portafolio</a></li>
+        <li><a href="#" class=" button type1">Mas Informacion</a></li>
+      </ul> 
+   </div> 
+
+
+
+<div id="main-container">
     <?php
         include("conexion.php");
         $sql="select * from usuarios";
         $resultado=mysqli_query($conex,$sql);
     ?>
-    <h1>Crud</h1>
-    <a href="agregar.php">tabla 1</a>
+    <h1>C.R.U.D (Creat Read Update Delete)</h1>
+    <a class="tablas" href="agregar.php">Agregar Registro</a>
     <br>
     <br>
     <table>
@@ -55,7 +70,7 @@
    
     <php mysqli_close($conex);?>
 
-
+</div>
 
 </body>
 </html>

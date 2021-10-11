@@ -10,7 +10,7 @@
 .nav-bar.sticky {
     padding: 0px 10px;
     position: fixed;
-    transition: 500ms ease
+    transition: 500ms ease;
 }
 
 .nav-bar.sticky ul {
@@ -74,6 +74,7 @@
     width: 100%;
     position: relative;
     transition: ease 500ms;
+    background: #fff;
 }
 
 .nav-bar .nav {

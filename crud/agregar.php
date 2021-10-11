@@ -39,7 +39,7 @@
 
 
 
-    <h1>Agrgar Aprendiz</h1>
+    <h1>Agregar Aprendiz</h1>
     <form action="<?=$_SERVER['PHP_SELF']?>" method="POST">
         <label>Nombre: </label>
         <input type="text" name="nombre">

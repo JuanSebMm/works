@@ -5,6 +5,7 @@ include("conexion.php")
 <html lang="es">
 <head>
     <title>EDITAR</title>
+    <link rel="stylesheet" href="../estilos/table.css">
 
 </head>
 <body>

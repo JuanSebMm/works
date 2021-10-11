@@ -15,14 +15,14 @@
          <div class="titulo">Manuales <span>Tecnicos</span></div>
         <li><a href="#inicio" class=" button type1">Inicio</a></li>
         <li><a href="../../crud/indexCrud.php" class=" button type1">Crud</a></li>
-        <li><a href="#" class=" button type1">Trabajos</a></li>
+        <li><a href="../trabJs/trab.php" class=" button type1">Trabajos</a></li>
         <li><a href="../perfil.php" class=" button type1">Portafolio</a></li>
         <li><a href="#" class=" button type1">Mas Informacion</a></li>
       </ul> 
     </div>    
 
     <div class="cont-conten">
-     <article>
+    <article>
         
       <div class="articulos art-img">
         <div class="pos"><h1><span>Manuales de</span> Aplicacion</h1></div>
@@ -111,7 +111,7 @@
         
       </div>
 
-     </article>      
+    </article>      
     </div>
 
     <footer class="footer">

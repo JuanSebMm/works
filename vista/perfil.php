@@ -40,7 +40,7 @@
                     <div class="icon"><img src="../img/manual.png" alt=""></div>
                     <div class="tittle"><span>Manual</span></div>
                 </a>
-                <a href="">
+                <a href="trabJs/trab.php">
                     <div class="icon"><img src="../img/engranaje.png" alt=""></div>
                     <div class="tittle"><span>Trabajos</span></div>
                 </a>
@@ -48,9 +48,9 @@
                     <div class="icon"><img src="../img/crud.jpg" alt=""></div>
                     <div class="tittle"><span>CRUD</span></div>
                 </a>
-                <a href="manual/ManualIn.php">
+                <a href="trabJs/trab.php">
                     <div class="icon"><img src="../img/codigo.png" alt=""></div>
-                    <div class="tittle"><span>Herramientas</span></div>
+                    <div class="tittle"><span>Codigos JS</span></div>
                 </a>
             </div>
 

@@ -17,9 +17,8 @@
        <ul class="Nav">
          <div class="titulo">Manuales <span>Tecnicos</span></div>
         <li><a href="#inicio" class=" button type1">Inicio</a></li>
-        <li><a href="../../crud/indexCrud.php" class=" button type1">Crud</a></li>
-        <li><a href="#" class=" button type1">Trabajos</a></li>
-        <li><a href="../perfil.php" class=" button type1">Portafolio</a></li>
+        <li><a href="../vista/trabJs/trab.php" class=" button type1">Trabajos</a></li>
+        <li><a href="../vista/perfil.php" class=" button type1">Portafolio</a></li>
         <li><a href="#" class=" button type1">Mas Informacion</a></li>
       </ul> 
    </div> 

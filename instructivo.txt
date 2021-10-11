@@ -1,3 +1,9 @@
-1.Para ingresar al portafolio ingresar a vistas e ingresar al archivo portafolio
-2.Navegar libremente 
-3.Para ingresar al manual de usuario consultarlo en el menu desplegable
+1.Para ingresar al portafolio ingresar a vistas 
+e ingresar al archivo portafolio.
+
+2.para poder utilizar correcta mente el crud descargar la base de datos
+que se encuentra en la carpeta de recursos y exportarla 
+a su gestor de bases de datos.
+
+3.Para ingresar al restoi de caracteristicas consultarlo 
+en el menu desplegable del portafolio

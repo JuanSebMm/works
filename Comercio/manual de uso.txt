@@ -9,3 +9,6 @@
 3.Si desea tener una idea mas clara de nuestro proyecto y como
   sera, en la misma carpeta de recursos encontrara un archivo
   llamado comercioMas 
+  
+4.Una ves descargado el archivo de comerciomas
+  abrirlo con la aplicacion de balsamiq para poder verlo correctamente

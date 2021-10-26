@@ -21,9 +21,13 @@
             }
         }
 
+        public function connect(){
+            return $this->conect;
+        }
+
     }
 
-    $conect=new conexion();
+
 
 
 ?>

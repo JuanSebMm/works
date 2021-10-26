@@ -1,4 +1,5 @@
 <?php
+ require_once("autoload.php");
 
  class usuario extends conexion{
     private $Nombre;
@@ -10,7 +11,7 @@
 
     public function __construct(){
         $this->conBD =new conexion();
-        $this->conBD=$this->conBD->connect();
+        $this->conBD =$this->conBD->connect();
     }
 
     public function insertUs(string $usuario, string $subname, string $profNam, string $correo, int $tel){
@@ -23,7 +24,7 @@
 
         $sql="INSERT INTO `users`( `nombre`, `apellido`, `nombre_us`, `email`, `num_tel`) VALUES (?,?,?,?,?)";
 
-        $insert = $this->conBD->prepare();
+        $insert = $this->conBD->prepare($sql);
 
         $arrData=array($this->Nombre,$this->Apellido,$this->Nom_Us,$this->Email,$this->Num_tel);
 

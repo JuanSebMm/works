@@ -1,5 +1,7 @@
 <?php
- require_once("autoload.php");
+//  require_once("autoload.php");
+
+include("../conexion/conexion.php");
 
  class usuario extends conexion{
     private $Nombre;
@@ -14,23 +16,25 @@
         $this->conBD =$this->conBD->connect();
     }
 
-    public function insertUs(string $usuario, string $subname, string $profNam, string $correo, int $tel){
+    public function insertUs(string $users, string $subname, string $profNam, string $correo, int $tel){
         
-        $this->Nombre=$usuario;
-        $this->Apellido=$subname;
-        $this->Nom_Us=$profNam;
-        $this->Email=$correo;
-        $this->Num_tel=$tel;
+        try {
+            if ($this->) {
+                # code...
+            }
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
 
-        $sql="INSERT INTO `users`( `nombre`, `apellido`, `nombre_us`, `email`, `num_tel`) VALUES (?,?,?,?,?)";
+        // $sql="INSERT INTO `users`( `nombre`, `apellido`, `NombreUs`, `email`, `NumTel` VALUES (?,?,?,?,?)";
 
-        $insert = $this->conBD->prepare($sql);
+        // $insert = $this->conBD->prepare($sql);
 
-        $arrData=array($this->Nombre,$this->Apellido,$this->Nom_Us,$this->Email,$this->Num_tel);
+        // $arrData=array($this->Nombre,$this->Apellido,$this->Nom_Us,$this->Email,$this->Num_tel);
 
-        $reInsert=$insert->execute($arrData);
-        $idinsert=$this->conBD->lastInsertId();
-        return $idinsert;
+        // $reInsert=$insert->execute($arrData);
+        // $idinsert=$this->conBD->lastInsertId();
+        // return $idinsert;
 
     }
  }

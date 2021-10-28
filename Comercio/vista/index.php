@@ -1,8 +1,7 @@
 <?php
+include("../daocrud/usuario.php");
 
-require_once('../daocrud/autoload.php');
-
-
+// require_once('../daocrud/autoload.php');
 $objUsuario= new usuario();
 
 $insert=$objUsuario->insertUs("juan","peroo","ramirez","hotmail",31225486);

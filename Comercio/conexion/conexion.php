@@ -1,17 +1,16 @@
 <?php 
 
     class conexion{
-        private $host="localhost";
+        private $dsn="mysql:host=localhost;dbname=comerciomas";
         private $user="root";
         private $password="";
-        private $BD="comerciomas";
         private $conect;
 
         public function __construct(){
-            $connectionString="mysql:hos=".$this->host.";dbname".$this->BD.";charset=utf8";
+            // $this->conect="mysql:hos=".$this->host.";dbname".$this->BD.";charset=utf8";
 
             try {
-                $this->conect = new PDO($connectionString,$this->user,$this->password);
+                $this->conect = new PDO($this->dsn,$this->user,$this->password);
                 $this->conect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                 echo"Conexion exitosa";
 
@@ -21,13 +20,9 @@
             }
         }
 
-        public function connect(){
-            return $this->conect;
-        }
+          public function connect(){
+              return $this->conect;
+          }
 
     }
-
-
-
-
 ?>

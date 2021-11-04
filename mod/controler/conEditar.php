@@ -40,11 +40,11 @@ if(isset($_POST['enviar'])){
     $fila=mysqli_fetch_assoc($resultado);
     $id=$fila['id'];
     $Nm_neg=$fila['Nm_Ng'];
-    $Des_neg=$fila['Des_ng'];
-    $Direccion=$fila['Direc'];
-    $Municipio=$fila['Muni'];
-    $Telefono=$fila['Tel'];
-    $Red=$fila['Red'];
+    $Des_neg=$fila['Des_neg'];
+    $Direccion=$fila['Direccion'];
+    $Municipio=$fila['Municipio'];
+    $Telefono=$fila['Telefono'];
+    $Red=$fila['Social'];
 
 
     mysqli_close($conex);

@@ -1,5 +1,5 @@
 <?php
         include("../conexion/conexion.php");
-        $sql="select * from usuarios";
+        $sql="select * from negocios";
         $resultado=mysqli_query($conex,$sql);
     ?>

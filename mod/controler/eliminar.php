@@ -2,7 +2,7 @@
     $id=$_GET['id'];
     include("../conexion/conexion.php");
 
-    $sql="delete from usuarios where id='".$id."'";
+    $sql="delete from negocios where id='".$id."'";
     $resultado=mysqli_query($conex,$sql);
 
     if($resultado){

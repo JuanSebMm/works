@@ -1,5 +1,5 @@
 <?php
-$conex = mysqli_connect("localhost","root","","crud");
+$conex = mysqli_connect("localhost","root","","comercios");
 ?>
 
 

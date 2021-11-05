@@ -36,6 +36,7 @@
             <input type="text" value=<?php echo $Red?> name="Red" class="controls" >
     
             <input type="submit" name="enviar" value="AGREGAR"  class="controls">
+            <input type="hidden" name="id" value="<?php echo $id; ?>">
             <center><a href="../modelos/indexCrud.php">REGRESAR</a></center>    
     </form>
     

@@ -3,7 +3,7 @@
 include("../conexion/conexion.php");
 
 if(isset($_POST['enviar'])){
-    $id=$_POST['id'];
+    $id=$_POST['id']; 
     $Nm_neg=$_POST['Nm_Ng'];
     $Des_neg=$_POST['Des_ng'];
     $Direccion=$_POST['Direc'];
@@ -11,7 +11,7 @@ if(isset($_POST['enviar'])){
     $Telefono=$_POST['Tel'];
     $Red=$_POST['Red'];
 
-    $sql="UPDATE `negocios` SET `Nm_Ng`=$Nm_neg,`Des_neg`=$Des_neg,`Direccion`=$Direccion,`Municipio`=$Municipio,`Telefono`=$Telefono,`Social`=$Red where id='".$id."'";
+    $sql="update negocios set Nm_Ng='".$Nm_neg."'  ,Des_neg='".$Des_neg."' ,Direccion='".$Direccion."',Municipio='".$Municipio."',Telefono='".$Telefono."',Social='".$Red."' where id='".$id."'";
 
     $resultado=mysqli_query($conex,$sql);
 

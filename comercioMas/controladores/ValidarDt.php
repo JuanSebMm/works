@@ -21,7 +21,7 @@ if ($_POST) {
         if ($password_bd==$pass_c ) {
             // Datos de usuarios
             $_SESSION['id'] = $row['id'];
-            $_SESSION['nombre']=$row['nombre'];
+            $_SESSION['nombres']=$row['nombres'];
             $_SESSION['apellido']=$row['apellido'];
             $_SESSION['usuario']=$row['usuario'];
             $_SESSION['email']=$row['email'];
@@ -34,11 +34,11 @@ if ($_POST) {
             header("location: ../vistas/Comercios.php");
 
         } else {
-            echo"La contaseña no coincide";
+            echo"<script> alert('La contraseña no es ocorrecta o no existe');</script>";
         }
         
     } else {
-        echo"No existe el usuario";
+        echo"<script> alert('El usuario no es correcto o no existe');</script>";
     }
     
 }

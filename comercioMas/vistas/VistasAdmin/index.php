@@ -17,8 +17,9 @@ $sql="SELECT * FROM comerciantes";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../estilos/PagIn.css">
+    <link rel="stylesheet" href="../../estilos/PagPrin.css">
     <link rel="stylesheet" href="../../estilos/footer.css">
+    <link rel="stylesheet" href="../../estilos/tablas.css">
     <title>Document</title>
 </head>
 <body>
@@ -53,23 +54,45 @@ $sql="SELECT * FROM comerciantes";
     </div>
 </section>
 
-<div class="cuerpo">
 <?php
 while ($row = $resultado->fetch_assoc()) { ?>
 
-    <div class="con_tar">
-        <div class="Tar_pres">
-            <div class="card">
-            <img src="<?php echo $row['drfoto'];?>" alt="">
-            <h4><?php echo $row['nombres'];?></h4>
-            <p></p>
-            <a href="">Leer Mas</a>             
-            </div>
-        </div>
-    </div>
+<div id="main-container">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id Comercio</th>
+                <th>Id Tienda</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Link de Fotos</th>
+                <th>Genero</th>
+                <th>Correo</th>
+                <th>Telefono</th>
+                <th>Nombre de Usuario</th>
+                <th>Descripcion</th>
+
+            </tr>
+        </thead>
+
+        <tr>
+            <td><?php echo $row['id_com'];?></td>
+            <td><?php echo $row['id_tienda'];?></td>
+            <td><?php echo $row['nombres'];?></td>
+            <td><?php echo $row['apellidos'];?></td>
+            <td><?php echo $row['drfotos'];?></td>
+            <td><?php echo $row['genero'];?></td>
+            <td><?php echo $row['correo'];?></td>
+            <td><?php echo $row['telefono'];?></td>
+            <td><?php echo $row['nom_us'];?></td>
+            <td><?php echo $row['descripcion'];?></td>
+        </tr>
+    </table>
+</div>
 
 <?php } ?>
 <?php } else{ header("location: ../Comercios.php");} ?>
-</div>
+
 </body>
 </html>

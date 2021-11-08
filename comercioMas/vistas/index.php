@@ -1,5 +1,6 @@
 <?php include("../controladores/conBd.php");?>
 
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -35,8 +36,14 @@
                 <a href="#">Servicios</a>
                 <a href="#">Suscribirse</a>
                 <a href="#">Facebook</a>
-                <a href="FormIn.php">Iniciar Sesion</a>
-                <a href="FormReg.php">Registrarse</a>
+                <?php
+                if (!isset($_SESSION['id'])) {?>
+                 <a href="FormIn.php">Iniciar Sesion</a>
+                 <a href="FormReg.php">Registrarse</a>
+                <?php } ?>                
+                
+                
+                
             </nav>
             <label for="btn-menu">✖️</label>
         </div>

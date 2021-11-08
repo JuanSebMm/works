@@ -4,7 +4,7 @@ session_start();
 // Uusarios
 
 $IdUsuario=$_SESSION['id'];
-$nombre=$_SESSION['nombre'];
+$nombre=$_SESSION['nombres'];
 $ApUsuario=$_SESSION['apellido'];
 $UsUsuario=$_SESSION['usuario'];
 $EmUsuario=$_SESSION['email'];

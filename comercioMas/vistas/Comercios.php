@@ -1,10 +1,12 @@
 <!-- Confirmacon de inicio de sesion -->
 <?php 
 require('../controladores/Sesiones.php');
+
 if (!isset($_SESSION['id'])) {
     header('location: FormIn.php');
 }
 ?>
+<?php include("../controladores/conBd.php");?>
 
 <!-- Cuerpo de comercios -->
 <!DOCTYPE html>
@@ -13,7 +15,7 @@ if (!isset($_SESSION['id'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/PagIn.css">
+    <link rel="stylesheet" href="../estilos/PagPrin.css">
     <link rel="stylesheet" href="../estilos/footer.css">
     <title>Document</title>
 </head>
@@ -37,12 +39,12 @@ if (!isset($_SESSION['id'])) {
     <div class="container-menu">
         <div class="cont-menu">
             <nav>
-                <a href="#"><?php echo $nombre;?></a>
-                <a href="#">Servicios</a>
-                <a href="#">Suscribirse</a>
-                <a href="#">Facebook</a>
+            <a href="index.php">Inicio</a>
+            <a href="vistasAdmin/index.php">Mi Perfil</a>
+            <a href="perfil.php"><?php echo "$nombre";?></a>
                 <?php if ($tipo_user == 1) {?>
                     <a href="vistasAdmin/index.php">Registros</a>
+                    <a href="vistasAdmin/index.php">Comercios</a>
                 
                 <?php } ?>
                 <a href="../controladores/cerrarSes.php">Cerrar Sesion</a>
@@ -52,6 +54,26 @@ if (!isset($_SESSION['id'])) {
     </div>
 </section>
 
+<div class="comercios_cuer">
+<div class="cuerpo">
+        <?php $nombre=[]; while($filas=mysqli_fetch_assoc($resultado)){ ?>
+                <div class="con_tar">
+                <?php echo "<a href='comvis.php?id=".$filas['id_com']."'>"?>
+                    <div class="Tar_pres">
+                        <div class="card">
+                            <img src="<?php echo $filas['drfoto'];?>" alt="">
+                            <h4><?php echo $filas['nombres'];?></h4>
+                            <p></p>
+                            <a href="">Leer Mas</a>             
+                        </div>
+                    </div>
+                    <?php echo "</a>"?>
+                </div>
+        <?php }?>
+        <?php mysqli_close($conexion);?>
+
+    </div>
+</div>
 
 <footer class="pie-pagina">
     <div class="grupo-1">
@@ -64,7 +86,7 @@ if (!isset($_SESSION['id'])) {
         </div>
         <div class="box">
             <h2>SOBRE NOSOTROS</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            <p>Publicidad de Manera Gratuita y de manera segura</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
         </div>
         <div class="box">

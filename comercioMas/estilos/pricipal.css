@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Noto+Sans&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+body {
+    background: #f3f3f3;
+}
+
+.contenedor {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-contenedor {
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contenido-slider:nth-child(1) {
+    background: #ffa229;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenido-slider:nth-child(2) {
+    background: #332863;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenido-slider:nth-child(3) {
+    background: #611a68;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenido-slider:nth-child(4) {
+    background: #ffa229;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenido-slider>img {
+    width: 45%;
+}
+
+.contenido-slider>div {
+    width: 45%;
+}
+
+.contenido-slider h1 {
+    font-weight: 500;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+}
+
+.contenido-slider h2 {
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contenido-slider a {
+    color: #fff;
+    background: #d63808;
+    width: 200px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contenido-slider:nth-child(2) a {
+    background: #d63808;
+    color: #fff;
+}
+
+@media screen and (max-width:900px) {
+    .contenido-slider>img {
+        width: 300px;
+    }
+    .contenido-slider>div {
+        width: 40%;
+    }
+    .contenido-slider h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contenido-slider {
+        flex-direction: column-reverse;
+    }
+    .contenido-slider>div {
+        width: 80%;
+    }
+}
+
+
+/* Tarjetas de publicidad */
+
+.card {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -50px 0 20px 0;
+    position: sticky;
+}
+
+.card__perfil {
+    width: 310px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(201, 201, 201);
+    border: solid rgba(3, 133, 255, 0) 2px;
+    border-radius: 10px;
+    background: white;
+}
+
+.card__perfil:hover {
+    border: solid rgb(3, 133, 255) 2px;
+}
+
+.card__nombre img {
+    width: 250px;
+    height: 200px;
+    border-radius: 6pz;
+}
+
+.card__nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card__perfil hr {
+    width: 100%;
+    height: 4px;
+    background: rgb(223, 221, 221);
+    margin: 20px 5px;
+}
+
+.card__button {
+    text-align: center;
+}
+
+.enlace {
+    background: rgb(0, 110, 255);
+    padding: 8px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:900px) {
+    .card {
+        margin: 20px 0 20px 0;
+    }
+}
+
+
+/* Barra de busqueda */
+
+.menu_bus label {
+    order: 3;
+}
+
+.menu_bus .menu_bus {
+    order: 2;
+}
